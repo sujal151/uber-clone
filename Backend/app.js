@@ -17,7 +17,7 @@ app.use(cookieParser())
 
 
 app.get("/", (req, res) => {
-    res.send("Hello khush")
+    res.send("Hello sujal")
 })
 
 app.use('/users', userRoutes)
